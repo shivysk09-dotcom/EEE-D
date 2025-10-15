@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
+import {profileImage} from '/images/profileimage.png';
 
 const App = () => {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
@@ -170,7 +171,7 @@ const App = () => {
               </div>
             </div>
             <div className="hero-image-container">
-                <img src="https://i.imgur.com/uS3sT0g.png" alt="Dr. M.Madhusudhan" />
+                <img src={profileImage} alt="Dr. M.Madhusudhan" />
             </div>
           </div>
         </section>
