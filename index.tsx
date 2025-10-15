@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
-import {profileImage} from '/images/profileimage.png';
+import profileImage from './images/profileimage.png';
 
 const App = () => {
   const [showWhatsApp, setShowWhatsApp] = useState(false);
